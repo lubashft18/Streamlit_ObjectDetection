@@ -2,7 +2,7 @@ streamlit==1.37.0
 streamlit-webrtc==0.47.0
 ultralytics==8.2.21
 opencv-python-headless==4.9.0.80
-av==11.0.0
+av==10.0.0
 numpy==1.26.4
 tornado==6.3.3
 nest-asyncio==1.6.0
