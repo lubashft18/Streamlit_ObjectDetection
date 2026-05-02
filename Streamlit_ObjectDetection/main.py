@@ -257,13 +257,12 @@ def video_frame_callback(frame: av.VideoFrame) -> av.VideoFrame:
     t0 = time.perf_counter()
 
     results = model.track(
-        img,
-        persist=True,
-        conf=conf,
-        iou=0.45,
-        verbose=False,
-        tracker="bytetrack.yaml",
-    )
+    img,
+    persist=True,
+    conf=conf,
+    iou=0.45,
+    verbose=False,
+)
 
     elapsed = time.perf_counter() - t0
 
