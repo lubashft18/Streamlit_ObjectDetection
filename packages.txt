@@ -1,0 +1,11 @@
+pkg-config
+libavcodec-dev
+libavformat-dev
+libavdevice-dev
+libavfilter-dev
+libswscale-dev
+libswresample-dev
+libsm6
+libxext6
+libxrender1
+libgomp1
