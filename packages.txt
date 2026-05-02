@@ -9,3 +9,5 @@ libsm6
 libxext6
 libxrender1
 libgomp1
+zlib1g-dev
+libjpeg-dev
